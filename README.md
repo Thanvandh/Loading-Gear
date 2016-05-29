@@ -4,11 +4,6 @@ In this library I simply used an AnimationSet for an View to impliment loading g
 [ ![Download](https://api.bintray.com/packages/thanvandh/maven/GearLoad/images/download.svg) ](https://bintray.com/thanvandh/maven/GearLoad/)
 
 ```
-repositories {
-    maven {
-        url  "http://dl.bintray.com/thanvandh/maven" 
-    }
-}
 dependencies {
     compile 'info.androidramp:loading-gear:1.0.4'
 }
