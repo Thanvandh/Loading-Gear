@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/loading_bg" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/loading_bg" />
+
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/loading_d_bg" />
+
+
+                <View
+                    android:id="@+id/gear_green"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_marginBottom="28dp"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginRight="28dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/gear_green" />
+
+                <View
+                    android:id="@+id/gear_blue"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="27dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/gear_blue" />
+
+                <View
+                    android:id="@+id/gear_red"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/gear_red" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/loading_d_over"
+                    android:visibility="visible" />
+
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/loading_bg" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Loading..."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/loading_bg" />
+
+</LinearLayout>
+

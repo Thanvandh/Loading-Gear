@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="loading_fade_duration">300</integer>
+    <integer name="loading_duration">10000</integer>
+    <integer name="loading_from">0</integer>
+    <integer name="loading_to">360</integer>
+</resources>
